@@ -89,7 +89,7 @@ python test.py
   
     3.3 Check a counting number is correct or not
   
-    3.4 Output a resulta as video (`Results/output.mp4`)
+    3.4 Output a result as video (`Results/output.mp4`)
   
 
 ## References
