@@ -69,7 +69,7 @@ python test.py
   
     2.1 Decide detected region
   
-    2.2 Build the **mask** (mask.jpg) to focus only on the region we detected to get the better results
+    2.2 Build the **mask** (mask.png) to focus only on the region we detected to get the better results
   
     2.3 Bit-and operation with the original image (the output records in `Results/bitand_reuslt.mp4`)
   
@@ -96,6 +96,3 @@ python test.py
 
 - [Youtube](https://www.youtube.com/watch?v=WgPbbWmnXJ8)
 - [YOLOv8](https://github.com/ultralytics/ultralytics)
-
-Author: Jing Lu (D.S.)                                  
-Date: 2024.03.
