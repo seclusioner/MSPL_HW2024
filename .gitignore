@@ -1,0 +1,6 @@
+**/__pycache__/
+*.ipynb
+*.jpg
+*.png
+*.mp4
+*.pt
