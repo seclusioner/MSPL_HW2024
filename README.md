@@ -56,27 +56,44 @@ python test.py
 
 ### Step：
 * Preparation
+  
     1.1 Ensure the Libraries and IDE can be worked.
+  
     1.2. Make sure that data can be used in your code
+  
     1.3. Use the yolo model to detect the object (car / truck / motorbike ... etc.), and display bounding boxes.
+  
     1.4. Setting class names and confidence value
 
 * Detecting & Counting (core)
+  
     2.1 Decide detected region
+  
     2.2 Build the **mask** (mask.jpg) to focus only on the region we detected to get the better results
+  
     2.3 Bit-and operation with the original image (the output records in `Results/bitand_reuslt.mp4`)
+  
     2.4 Create the tracker to trace object's moving trajectory (sort.py) and assign the id number for each car (we need to know where the cars go in next frame, and make sure every frame the same car keeps the same id number)
+  
     2.5 Create the certain region (line) and use it as the counter when objects (car) go through (a center point touchs the line)
+  
     2.6 Build a counting list as a counter and ensure counter will not count repetitively
+  
     2.7 Finally output the length of counting list
 
 * Beautify
+  
     3.1 Add a graphic (graphics.png)
+  
     3.2 Set a coordinate to put the graphics on the screen
+  
     3.3 Check a counting number is correct or not
+  
     3.4 Output a resulta as video (`Results/output.mp4`)
+  
 
 ## References
+
 - [Youtube](https://www.youtube.com/watch?v=WgPbbWmnXJ8)
 - [YOLOv8](https://github.com/ultralytics/ultralytics)
 
